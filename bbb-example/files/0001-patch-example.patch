@@ -1,0 +1,34 @@
+From e74d69b938aca0e54940b6d058d84b284ae24bc8 Mon Sep 17 00:00:00 2001
+From: Munawar <munawerali1993@gmail.com>
+Date: Fri, 5 May 2023 19:04:31 +0200
+Subject: [PATCH] patch example
+
+---
+ bbb-example.c | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+diff --git a/bbb-example.c b/bbb-example.c
+index 6f31000..d925dda 100644
+--- a/bbb-example.c
++++ b/bbb-example.c
+@@ -4,7 +4,7 @@
+ int main() {
+   #ifdef WELCOME
+     #if WELCOME == y
+-      printf("Welcome to Yocto Tutorial.\n");
++      printf("Welcome to Yocto Tutorial\n");
+     #endif
+   #endif
+ 
+@@ -20,5 +20,8 @@ int main() {
+     #endif
+   #endif
+ 
++  printf("Hurry!! Patch successfull\n");
++
++
+   return 0;
+ }
+-- 
+2.17.1
+
