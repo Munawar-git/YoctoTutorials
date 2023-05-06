@@ -24,7 +24,7 @@ index 6f31000..d925dda 100644
      #endif
    #endif
  
-+  printf("Hurry!! Patch successfull\n");
++  printf("Hurry!! Patched successfull\n");
 +
 +
    return 0;

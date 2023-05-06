@@ -13,8 +13,6 @@ In this video we are going to learn about the common build tasks in Yocto.
 * What are common build tasks in Yocto?
 * Brief description of common build tasks.
 
-
-
 ### What are build tasks?
 
 Tasks can be considered as units of execution to perform a specific function, or
