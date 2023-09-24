@@ -1,0 +1,8 @@
+[Unit]
+Description=Continuous Hello World Service
+
+[Service]
+ExecStart=/bin/bash /usr/bin/sysd.sh
+
+[Install]
+WantedBy=multi-user.target
